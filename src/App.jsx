@@ -33,7 +33,7 @@ export default function App() {
   // PWA Install Prompt
   useEffect(() => {
     const handler = (e) => {
-      e.preventDefault();
+      // Don't prevent default immediately - store the event
       setDeferredPrompt(e);
       setShowInstallPrompt(true);
     };
@@ -48,6 +48,8 @@ export default function App() {
   const handleInstallClick = async () => {
     if (!deferredPrompt) return;
     
+    // Now prevent default and prompt
+    deferredPrompt.preventDefault();
     deferredPrompt.prompt();
     const { outcome } = await deferredPrompt.userChoice;
     
