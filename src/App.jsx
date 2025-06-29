@@ -222,8 +222,8 @@ export default function App() {
           <div className="absolute inset-0 bg-gradient-to-r from-transparent via-purple-500/10 to-transparent animate-pulse"></div>
           <div className="relative z-10">
             <img 
-              src="https://i.postimg.cc/pXz5N3xS/A-3-D-rendered-digital-image-showcases-an-arrangeme.png" 
-              alt="Cube Logo" 
+              src="/logo.png" 
+              alt="Math Quiz Logo" 
               className="w-16 h-16 mb-3 rounded-xl shadow-lg border border-purple-400/30" 
             />
             <h1 className="text-transparent bg-clip-text bg-gradient-to-r from-purple-400 to-pink-400 text-3xl font-bold mb-2 animate-pulse">Solve It</h1>
@@ -335,8 +335,8 @@ export default function App() {
           <div className="absolute inset-0 bg-gradient-to-r from-transparent via-purple-500/10 to-transparent animate-pulse"></div>
           <div className="relative z-10">
             <img 
-              src="https://i.postimg.cc/pXz5N3xS/A-3-D-rendered-digital-image-showcases-an-arrangeme.png" 
-              alt="Cube Logo" 
+              src="/logo.png" 
+              alt="Math Quiz Logo" 
               className="w-16 h-16 mb-3 rounded-xl shadow-lg border border-purple-400/30" 
             />
             <h1 className="text-transparent bg-clip-text bg-gradient-to-r from-purple-400 to-pink-400 text-3xl font-bold mb-4 animate-pulse">Quiz Complete!</h1>
